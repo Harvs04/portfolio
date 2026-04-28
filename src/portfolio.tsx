@@ -50,11 +50,11 @@ const NAV_LINKS: string[] = ["About", "Stack", "Skills", "Projects", "Contact"];
 const SKILLS: Skill[] = [
   {
     category: "Frontend",
-    items: ["Blade", "Vue.js", "Javascript", "Tailwind CSS", "LucideIcons", "Shadcn"],
+    items: ["Vue.js", "React", "Blade", "Tailwind CSS", "Lucide", "Shadcn", "Pinia"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Redis"],
+    items: ["Livewire", "Node.js", "Express", "Laravel", "MySQL", "PostgreSQL", "MongoDB", "Redis"],
   },
   { category: "DevOps", items: ["Git", "Docker", "Prometheus", "Grafana", "Loki"] },
 ];
@@ -74,7 +74,7 @@ const PROJECTS: Project[] = [
     title: "DIBS",
     description:
       "DIBS is a web application that allows students to book rooms in the ICS building.",
-    stack: ["Javascript", "MongoDB", "TailwindCSS", "FastAPI"],
+    stack: ["Next.js", "TypeScript", "MongoDB", "TailwindCSS", "FastAPI", "Firebase"],
     link: "https://dibs-kohl.vercel.app/",
     image: dibs,
   },
@@ -83,7 +83,7 @@ const PROJECTS: Project[] = [
     title: "PASABUY UPLB",
     description:
       "An e-commerce website for item ordering, purchasing, and order tracking.",
-    stack: ["Laravel", "Livewire", "MySQL"],
+    stack: ["Laravel", "Livewire", "Alpine.js", "TailwindCSS", "MySQL", "Cloudinary"],
     link: "https://pasabuy.infinityfreeapp.com",
     image: pasabuy,
   },
